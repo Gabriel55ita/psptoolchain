@@ -65,7 +65,7 @@ check_program   automake
 # Disabled pacman for windows
 if [ "${OSVER:0:5}" != MINGW ]; then
 check_program   python3
-check_program   pip3
+check_program   pip
 check_program   gpgme-config
 check_header    openssl             openssl/crypto.h openssl/include/openssl/crypto.h
 check_header    libarchive          archive.h libarchive/include/archive.h
